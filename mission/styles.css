@@ -1,0 +1,52 @@
+.body {
+    max-width: 600px;
+    outline: 2px black solid;
+    align-content: center;
+    margin: auto;
+    margin-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    line-height: 25px;
+}
+
+header h1 {
+    letter-spacing: 5px;
+}
+
+header h2 {
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: #006EB6;
+}
+
+main {
+    line-height: 30px;
+}
+
+main .body {
+    text-align: left;
+}
+
+ol {
+    line-height: 45px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
