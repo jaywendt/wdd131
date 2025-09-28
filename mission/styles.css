@@ -50,3 +50,7 @@ img {
     margin-right: auto;
 }
 
+.dark {
+    background-color: #333;
+    font: white;
+}
