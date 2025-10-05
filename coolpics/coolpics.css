@@ -1,0 +1,90 @@
+.mooli-regular {
+  font-family: "Mooli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ @import url("https://fonts.googleapis.com/css2?family=family=Mooli&display=swap");
+ :root {
+ --primary-color: #52489c;
+ --secondary-color: #59c3c3;
+ --accent-color: #f45b69;
+ --text-dark: #333;
+ --text-light: #ebebeb;
+ --primary-font: Arial, Helvetica,sans-serif;
+ --secondary-font: Mooli, san-serif;
+ }
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 700px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    header button {
+        display: none;
+    }
+}
+
+body {
+    font-size: 1.2em;
+    color:azure ;
+}
+
+body p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #52489c;
+}
+
+header h1 {
+    font-family: "Mooli", sans-serif;
+    text-align: center;
+}
+
+header button {
+    color:azure;
+    background-color: #52489c;
+}
+
+.navBar {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 80px;
+}
+
+.navBar a {
+    color: azure;
+}
+
+main {
+
+}
+
+main h2 {
+    font-family: "Mooli", sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #52489c;
+}
