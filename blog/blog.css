@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003049;
+    background-color: #eae2b7;
+}
+
+header h1 {
+    font: Helvetica;
+    text-align: center;
+    padding: 50px;
+}
+
+header .skiptocontent {
+    position: absolute;
+    top: -40px;
+}
+
+nav {
+    border: 2px solid black;
+    padding: 25px;
+}
+
+nav > ul {
+    font-size: x-large;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    justify-items: end;
+    margin: 0 auto;
+    max-width: 400px;
+    list-style-type: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main .center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
