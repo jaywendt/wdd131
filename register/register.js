@@ -16,5 +16,3 @@ function totalFees() {
     let feeElements = document.querySelectorAll ("id^=fee");
     console.log(feeElements);
 }
-
-
