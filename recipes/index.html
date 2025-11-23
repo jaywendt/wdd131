@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
     <link rel="stylesheet" href="recipes.css">
-    <script src="main.js" defer></script>
+    <script src="main.js" type="module" defer></script>
     <meta name="description" content="recipes site">
     <meta name="author" content="Johannes Wendt">
     <meta property="og:title" content="RecipeBook">
@@ -27,12 +27,12 @@
         </div>
     </header>
     <main>
-        <div class="recipe">
-            <img src="images1/apple-crisp.jpg">
+        <figure class="recipe">
+            <img src="images1/apple-crisp.jpg" alt="image of apple crisp">
             <div class="tags">
                 <h3>Desserts</h3>
             </div>
-            <h2>Apple Crisp</h2>
+            <h2><a href="#">Apple Crisp</a></h2>
             <span
                 class="rating"
                 role="img"
@@ -45,7 +45,7 @@
                 <span aria-hidden="true" class="icon-star-empty">☆</span>
             </span>
             <p>"This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream."</p>
-        </div>
+        </figure>
     </main>
     <footer>
         <div class="social">
