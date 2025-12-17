@@ -14,6 +14,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="">
+    <script src="scripts/main.js"></script>
 </head>
 <body>
     <header>
@@ -32,29 +33,64 @@
             <div class="hero-text">
 
             </div>
-            <div class="hero-image">
-                
+            <div class="hero-gallery">
+                <div class="slide fade">
+                    <div class="numberText">1/5</div>
+                    <img src="images/bigfoot.webp" style="width:500px; height:fit-content">
+                    <div class="text">Bigfoot</div>
+                </div>
+                <div class="slide fade">
+                    <div class="numberText">2/5</div>
+                    <img src="images/Kraken.webp" style="width:500px; height:fit-content">
+                    <div class="text">The Kraken</div>
+                </div>
+                <div class="slide fade">
+                    <div class="numberText">3/5</div>
+                    <img src="images/babaYaga.png" style="width:500px; height:fit-content">
+                    <div class="text">Baba Yaga</div>
+                </div>
+                <div class="slide fade">
+                    <div class="numberText">4/5</div>
+                    <img src="images/nandiBear.png" style="width:500px; height:fit-content">
+                    <div class="text">The Nandi Bear</div>
+                </div>
+                <div class="slide fade">
+                    <div class="numberText">5/5</div>
+                    <img src="images/chupacabra.jpg" style="width:500px; height:fit-content">
+                    <div class="text">The Chupacabra</div>
+                </div>
+
+                <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
             </div>
         </div>
         <div class="contentBoxes">
-            <section>
+            <span>
 
-            </section>
-            <section>
+            </span>
+            <span>
 
-            </section>
-            <section>
-                
-            </section>
-            <section>
-                
-            </section>
-            <section>
-                
-            </section>
-            <section>
-                
-            </section>
+            </span>
+            <span>
+
+            </span>
+            <span>
+
+            </span>
+            <span>
+
+            </span>
+            <span>
+
+            </span>
         </div>
         <div class="missionStatement">
             <h2>What We Do:</h2>
