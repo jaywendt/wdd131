@@ -2,22 +2,88 @@
     {
         "name": "Bigfoot",
         "location": "North America",
-        "size": "Large",
+        "size": "Varies, at least 6.5 ft",
         "dangerous": "Varies",
-        "information": ""
+        "information": "Native to the woodlands of the North American continent, the monster known locally as Bigfoot is a large human-like creature covered in thick hair.  Its most notable feature is its large feet that it gets its name from, varying in size depending on witness reports.  While some have said that it has shown hostility, most people believe that Bigfoot keeps mostly to itself, defending its territory if needed.",
+        "imagePath": "/allAboutMonsters/images/bigfoot.webp"
     },
     {
-        "name": "",
-        "location": "",
-        "size": "",
-        "dangerous": "",
-        "information": ""
+        "name": "Kelpie",
+        "location": "U.K.",
+        "size": "Large horse",
+        "dangerous": "Yes",
+        "information": "A water spirit of Scottish folklore, the Kelpie is most often described as a powerful black horse that lives in the deep pools, rivers, and streams of Scotland, where it lures in unsuspecting humans to their doom.  A common way to identify a kelpie from a true horse is by their backwards hooves."
     },
     {
-        "name": "",
-        "location": "",
-        "size": "",
-        "dangerous": "",
-        "information": ""
+        "name": "Chupacabra",
+        "location": "Southern parts of the U.S.A. and Central America",
+        "size": "Varies, ranging from small dog sized to small bear",
+        "dangerous": "Only a danger to livestock",
+        "information": "The chupacabra is a smaller monster that lives in the deserts of North America.  It has mottled, repitilian-like skin with a row of spines running along its back from neck to tail.  The name 'Chupacabra' comes from the hispanic words Chupar, meaning 'to suck', and Cabras, meaning 'goats', referencing how it got its infamy from sucking the blood of livestock.",
+        "imagePath": "/allAboutMonsters/images/chupacabra.jpg"
+    },
+    {
+        "name": "Mothman",
+        "location": "Eastern United States",
+        "size": "About 7 ft tall",
+        "dangerous": "Nonviolent",
+        "information": "The Mothman of Point Pleasant, West Virginia has many differing legends surrounding him.  Some say he is nothing more than an oversized bird, while more believe him to be a harbinger of doom.  Standing at the average height of an American man with a huge seven-foot wingspan, the Mothman has haunted the lands around Point Pleasant for nearly 60 years.",
+        "imagePath": "/allAboutMonsters/images/Mothman.webp"
+    },
+    {
+        "name": "Jinn",
+        "location": "Middle East",
+        "size": "Varies due to shapeshifting",
+        "dangerous": "Depends on interactions with it",
+        "information": "The inspiration for the modern day genie, the jinn is a capricious creature.  While they prefer to be left alone, they are capable of intelligent interaction and can even form relationships with humans.  But beware, for a jinn that has been insulted is a terrible foe.",
+        "imagePath": "/allAboutMonsters/images/jinn.webp"
+    },
+    {
+        "name": "Aswang",
+        "location": "Phillipines",
+        "size": "Human (varied)",
+        "dangerous": "Danger to humans",
+        "information": "A name for not just a singular monster, but an umbrella term for a multitude of supernatural creatures, the Aswang all share a common trait: a hunger for humans.  Vampires, weredogs, witches, and more make up the Aswang, all with their own appetites for particular parts of man.",
+        "imagePath": "/allAboutMonsters/images/Aswang.webp"
+    },
+    {
+        "name": "Baba Yaga",
+        "location": "Russian/European woodlands",
+        "size": "Human",
+        "dangerous": "Varies",
+        "information": "The wild witch of the old world, Baba Yaga is often depicted as an old woman riding a pestle and mortar who lives in a shack with giant chicken legs.  Some believe her to be the prototype of the archetypical wicked witch, but she is far more nuanced.  While she can be an antagonist, she can also serve as a source of guidance for the hero.",
+        "imagePath": "/allAboutMonsters/images/babaYaga.png"
+    },
+    {
+        "name": "Banshee",
+        "location": "Ireland",
+        "size": "Human, short to moderately tall",
+        "dangerous": "Nonviolent omen of death",
+        "information": "The banshee is a female spirit of death in Irish folklore.  Part of the fairy community, her keening screams and wails would herald the death of a family member",
+        "imagePath": "/allAboutMonsters/images/banshee.webp"
+    },
+    {
+        "name": "Nandi Bear",
+        "location": "East Africa",
+        "size": "Large, powerfully built",
+        "dangerous": "Danger to humans",
+        "information": "An imposing creature, built like an average bear, but far stronger.  Reddish hair, high front shoulders, and a sloping back characterize this animal.  Locals report that it is strong enough to kill animals, and even has a penchant for scalping humans.",
+        "imagePath": "/allAboutMonsters/images/nandiBear.png"
+    },
+    {
+        "name": "Bunyip",
+        "location": "Southeastern Australia",
+        "size": "Varies",
+        "dangerous": "Varies from tellings",
+        "information": "Interestingly, there are many different kinds of creatures that the Aboriginal people of Australia call Bunyip.  Some describe a giant starfish-like creature while others tell tales of a vicious seal or amphibious dog creature.",
+        "imagePath": "/allAboutMonsters/images/bunyip.jpg"
+    },
+    {
+        "name": "Kraken",
+        "location": "Oceans near Norway",
+        "size": "Enormous",
+        "dangerous": "Extremely dangerous",
+        "information": "A giant sea monster, the Kraken closely resembles either an octopus or squid of outrageous proportions that attack sailors on the open ocean.  It is said that it is so massive that it can easily be mistaken for a small island, often to a sailor's demise.",
+        "imagePath": "/allAboutMonsters/images/Kraken.webp"
     }
 ]
