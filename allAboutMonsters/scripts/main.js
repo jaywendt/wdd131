@@ -34,13 +34,12 @@ fetch('monsters.json')
         console.error('Error fetching data:', error);
     });
 
-function displayData(items) {
+function displayData(monsters) {
     const container = document.getElementById('infoBox');
     let htmlContent = '';
-    items.forEach(item => {
+    monsters.forEach(monster => {
         htmlContent += `
-            <div class="infoBox">
-                <p>${imagePath}</p>
+            <div class="monsterBox">
                 <h2>${monster}</h2>
                 <p>${location}</p>
                 <p>${size}</p>
