@@ -1,6 +1,6 @@
 [
     {
-        "name": "Bigfoot",
+        "monster": "Bigfoot",
         "location": "North America",
         "size": "Varies, at least 6.5 ft",
         "dangerous": "Varies",
@@ -8,14 +8,14 @@
         "imagePath": "/allAboutMonsters/images/bigfoot.webp"
     },
     {
-        "name": "Kelpie",
+        "monster": "Kelpie",
         "location": "U.K.",
         "size": "Large horse",
         "dangerous": "Yes",
         "information": "A water spirit of Scottish folklore, the Kelpie is most often described as a powerful black horse that lives in the deep pools, rivers, and streams of Scotland, where it lures in unsuspecting humans to their doom.  A common way to identify a kelpie from a true horse is by their backwards hooves."
     },
     {
-        "name": "Chupacabra",
+        "monster": "Chupacabra",
         "location": "Southern parts of the U.S.A. and Central America",
         "size": "Varies, ranging from small dog sized to small bear",
         "dangerous": "Only a danger to livestock",
@@ -23,7 +23,7 @@
         "imagePath": "/allAboutMonsters/images/chupacabra.jpg"
     },
     {
-        "name": "Mothman",
+        "monster": "Mothman",
         "location": "Eastern United States",
         "size": "About 7 ft tall",
         "dangerous": "Nonviolent",
@@ -31,7 +31,7 @@
         "imagePath": "/allAboutMonsters/images/Mothman.webp"
     },
     {
-        "name": "Jinn",
+        "monster": "Jinn",
         "location": "Middle East",
         "size": "Varies due to shapeshifting",
         "dangerous": "Depends on interactions with it",
@@ -39,7 +39,7 @@
         "imagePath": "/allAboutMonsters/images/jinn.webp"
     },
     {
-        "name": "Aswang",
+        "monster": "Aswang",
         "location": "Phillipines",
         "size": "Human (varied)",
         "dangerous": "Danger to humans",
@@ -47,7 +47,7 @@
         "imagePath": "/allAboutMonsters/images/Aswang.webp"
     },
     {
-        "name": "Baba Yaga",
+        "monster": "Baba Yaga",
         "location": "Russian/European woodlands",
         "size": "Human",
         "dangerous": "Varies",
@@ -55,7 +55,7 @@
         "imagePath": "/allAboutMonsters/images/babaYaga.png"
     },
     {
-        "name": "Banshee",
+        "monster": "Banshee",
         "location": "Ireland",
         "size": "Human, short to moderately tall",
         "dangerous": "Nonviolent omen of death",
@@ -63,7 +63,7 @@
         "imagePath": "/allAboutMonsters/images/banshee.webp"
     },
     {
-        "name": "Nandi Bear",
+        "monster": "Nandi Bear",
         "location": "East Africa",
         "size": "Large, powerfully built",
         "dangerous": "Danger to humans",
@@ -71,7 +71,7 @@
         "imagePath": "/allAboutMonsters/images/nandiBear.png"
     },
     {
-        "name": "Bunyip",
+        "monster": "Bunyip",
         "location": "Southeastern Australia",
         "size": "Varies",
         "dangerous": "Varies from tellings",
@@ -79,7 +79,7 @@
         "imagePath": "/allAboutMonsters/images/bunyip.jpg"
     },
     {
-        "name": "Kraken",
+        "monster": "Kraken",
         "location": "Oceans near Norway",
         "size": "Enormous",
         "dangerous": "Extremely dangerous",

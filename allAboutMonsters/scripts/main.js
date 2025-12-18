@@ -25,5 +25,30 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
 
-fetch(monsters.json)
-    .then
+fetch('monsters.json')
+    .then(response => response.json())
+    .then(data => {
+        displayData(data);
+    })
+    .catch(error => {
+        console.error('Error fetching data:', error);
+    });
+
+function displayData(items) {
+    const container = document.getElementById('infoBox');
+    let htmlContent = '';
+    items.forEach(item => {
+        htmlContent += `
+            <div class="infoBox">
+                <p>${imagePath}</p>
+                <h2>${monster}</h2>
+                <p>${location}</p>
+                <p>${size}</p>
+                <p>${dangerous}</p>
+                <p>${information}</p>
+            </div>
+        `;
+    });
+    container.innerHTML = htmlContent;
+
+}

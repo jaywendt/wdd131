@@ -230,6 +230,17 @@ input {
     margin: auto;
 }
 
+.thanks {
+    margin: auto;
+    text-align: center;
+    background-color: #eeeb92;
+    width: 400px;
+}
+
+.thanks h1 {
+    margin: auto;
+}
+
 /** footer **/
 
 footer {
