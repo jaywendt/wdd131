@@ -13,50 +13,51 @@
     <meta property="og:url" content="">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="icon" href="">
+    <link rel="icon" href="images/AAM-logo.png">
     <script src="scripts/main.js"></script>
 </head>
 <body>
     <header>
-        <img href="images/AAM-logo.png" alt="All About Monsters Logo">
+        <img src="images/AAM-logo.png" alt="All About Monsters Logo">
         <h1>All About Monsters</h1>
         <nav>
             <ul>
-                <li><a href="index.html"></a>Home</li>
-                <li><a href="database.html"></a>Database</li>
-                <li><a href="submit">Submissions</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="database.html">Database</a></li>
+                <li><a href="submissionForm.html">Submissions</a></li>
             </ul>
+            <input type="text" placeholder="Search...">
         </nav>
     </header>
     <main>
         <div class="hero">
             <div class="hero-text">
-
+                <h2>A world of monsters</h2>
             </div>
             <div class="hero-gallery">
                 <div class="slide fade">
                     <div class="numberText">1/5</div>
-                    <img src="images/bigfoot.webp" style="width:500px; height:fit-content">
+                    <img src="images/bigfoot.webp" style="max-width:300px;">
                     <div class="text">Bigfoot</div>
                 </div>
                 <div class="slide fade">
                     <div class="numberText">2/5</div>
-                    <img src="images/Kraken.webp" style="width:500px; height:fit-content">
+                    <img src="images/Kraken.webp" style="max-width:300px;">
                     <div class="text">The Kraken</div>
                 </div>
                 <div class="slide fade">
                     <div class="numberText">3/5</div>
-                    <img src="images/babaYaga.png" style="width:500px; height:fit-content">
+                    <img src="images/babaYaga.webp" style="max-width:300px;">
                     <div class="text">Baba Yaga</div>
                 </div>
                 <div class="slide fade">
                     <div class="numberText">4/5</div>
-                    <img src="images/nandiBear.png" style="width:500px; height:fit-content">
+                    <img src="images/nandiBear.webp" style="max-width:300px;">
                     <div class="text">The Nandi Bear</div>
                 </div>
                 <div class="slide fade">
                     <div class="numberText">5/5</div>
-                    <img src="images/chupacabra.jpg" style="width:500px; height:fit-content">
+                    <img src="images/chupacabra.webp" style="max-width:300px;">
                     <div class="text">The Chupacabra</div>
                 </div>
 
@@ -72,38 +73,51 @@
                 <span class="dot" onclick="currentSlide(5)"></span>
             </div>
         </div>
+        <br>
         <div class="contentBoxes">
-            <span>
-
+            <h2>Find what creatures live near you</h2>
+            <span class="continentLinks">
+                <a href=""><img src="images/africa.jpg" alt="Map of Africa"></a>
+                <p>Africa</p>
             </span>
-            <span>
-
+            <span class="continentLinks">
+                <a href=""><img src="images/asia.jpg" alt="Map of Asia"></a>
+                <p>Asia</p>
             </span>
-            <span>
-
+            <span class="continentLinks">
+                <a href=""><img src="images/australia.jpg" alt="Map of Australia"></a>
+                <p>Australia</p>
             </span>
-            <span>
-
+            <span class="continentLinks">
+                <a href=""><img src="images/europe.jpg" alt="Map of Europe"></a>
+                <p>Europe</p>
             </span>
-            <span>
-
+            <span class="continentLinks">
+                <a href=""><img src="images/northAm.jpg" alt="Map of North America"></a>
+                <p>North America</p>
             </span>
-            <span>
-
+            <span class="continentLinks">
+                <a href=""><img src="images/southAm.jpg" alt="Map of South America"></a>
+                <p>South America</p>
             </span>
         </div>
+        <br>
         <div class="missionStatement">
             <h2>What We Do:</h2>
             <p>Our purpose is to educate the common man about what goes bump in the night, and how to defend yourself.</p>
         </div>
+        <br>
         <div class="invite">
             <h3>Is there a monster you want to see?</h3>
             <p>Submit its name here!</p>
+            <a href="submissionForm.html">Monster Request Form</a>
         </div>
+        <br>
     </main>
     <footer>
+        <p>Johannes Wendt WDD 131 Final</p>
         <div class="socials">
-            <a href="#"><img src="images/instagram_icon copy.svg" alt="Instagram icon"></a>
+            <a href="#"><img src="images/instagram_icon.svg" alt="Instagram icon"></a>
             <a href="#"><img src="images/youtube_icon.svg" alt="Youtube icon"></a>
             <a href="#"><img src="images/pinterest_icon.svg" alt="Pinterest icon"></a>
         </div>
