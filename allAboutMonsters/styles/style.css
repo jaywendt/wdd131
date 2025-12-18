@@ -176,22 +176,58 @@ ul li a:hover {
 }
 
 .invite {
-    text-align: right;
-    width: 850px;
+    margin: auto;
+    text-align: center;
+    background-color: #eeeb92;
+    width: fit-content;
+    padding: 5px;
 }
 
 .invite p {
+    margin: auto;
     width: 300px;
     text-align: center;
+    background-color: #eeeb92;
 }
 
 .invite h3 {
+    margin: auto;
     text-align: center;
 }
 
 .invite a {
     background-color: #eeeb92;
+    width: 400px;
     border-radius: 20px;
+}
+
+.requestForm {
+    text-align: center;
+    padding: 10px;
+}
+
+.requestForm h1{
+    text-align: center;
+    margin: auto;
+}
+
+.requestForm p {
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+}
+
+form {
+    text-align: center;
+    background-color: #eeeb92;
+    width: 800px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+input {
+    display: block;
+    margin: auto;
 }
 
 /** footer **/
