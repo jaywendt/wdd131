@@ -12,7 +12,8 @@
         "location": "U.K.",
         "size": "Large horse",
         "dangerous": "Yes",
-        "information": "A water spirit of Scottish folklore, the Kelpie is most often described as a powerful black horse that lives in the deep pools, rivers, and streams of Scotland, where it lures in unsuspecting humans to their doom.  A common way to identify a kelpie from a true horse is by their backwards hooves."
+        "information": "A water spirit of Scottish folklore, the Kelpie is most often described as a powerful black horse that lives in the deep pools, rivers, and streams of Scotland, where it lures in unsuspecting humans to their doom.  A common way to identify a kelpie from a true horse is by their backwards hooves.",
+        "imagePath": "/allAboutMonsters/images/kelpie.webp"
     },
     {
         "monster": "Chupacabra",
@@ -20,7 +21,7 @@
         "size": "Varies, ranging from small dog sized to small bear",
         "dangerous": "Only a danger to livestock",
         "information": "The chupacabra is a smaller monster that lives in the deserts of North America.  It has mottled, repitilian-like skin with a row of spines running along its back from neck to tail.  The name 'Chupacabra' comes from the hispanic words Chupar, meaning 'to suck', and Cabras, meaning 'goats', referencing how it got its infamy from sucking the blood of livestock.",
-        "imagePath": "/allAboutMonsters/images/chupacabra.jpg"
+        "imagePath": "/allAboutMonsters/images/chupacabra.webp"
     },
     {
         "monster": "Mothman",
@@ -52,7 +53,7 @@
         "size": "Human",
         "dangerous": "Varies",
         "information": "The wild witch of the old world, Baba Yaga is often depicted as an old woman riding a pestle and mortar who lives in a shack with giant chicken legs.  Some believe her to be the prototype of the archetypical wicked witch, but she is far more nuanced.  While she can be an antagonist, she can also serve as a source of guidance for the hero.",
-        "imagePath": "/allAboutMonsters/images/babaYaga.png"
+        "imagePath": "/allAboutMonsters/images/babaYaga.webp"
     },
     {
         "monster": "Banshee",
@@ -68,7 +69,7 @@
         "size": "Large, powerfully built",
         "dangerous": "Danger to humans",
         "information": "An imposing creature, built like an average bear, but far stronger.  Reddish hair, high front shoulders, and a sloping back characterize this animal.  Locals report that it is strong enough to kill animals, and even has a penchant for scalping humans.",
-        "imagePath": "/allAboutMonsters/images/nandiBear.png"
+        "imagePath": "/allAboutMonsters/images/nandiBear.webp"
     },
     {
         "monster": "Bunyip",

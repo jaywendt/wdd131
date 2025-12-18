@@ -35,6 +35,34 @@
             <h2>Dive into whichever creature interests you</h2>
             <div id="infoBox"></div>
         </div>
+        <script>
+            post();
+
+            async function post() {
+                const monsters = await getData();
+            
+                const infoBox = document.querySelector("#infoBox");
+
+                for (const monster of monsters) {
+                    infoBox.innerHTML += `
+                    <img src="${monster.imagePath}">
+                    <h2>${monster.monster}</h2>
+                    <p>${monster.location}</p>
+                    <p>${monster.size}</p>
+                    <p>${monster.dangerous}</p>
+                    <p>${monster.information}</p>
+                    
+                    `;
+                }
+            }
+
+            async function getData() {
+                const response = await fetch("monsters.json");
+                const data = await response.json();
+
+                return data;
+            }
+        </script>
     </main>
     <footer>
         <div class="socials">

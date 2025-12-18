@@ -25,6 +25,7 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
 
+/*
 fetch('monsters.json')
     .then(response => response.json())
     .then(data => {
@@ -35,19 +36,18 @@ fetch('monsters.json')
     });
 
 function displayData(monsters) {
-    const container = document.getElementById('infoBox');
-    let htmlContent = '';
+    const container = document.getElementById('#infoBox');
+    let htmlContent = ``;
     monsters.forEach(monster => {
         htmlContent += `
-            <div class="monsterBox">
                 <h2>${monster}</h2>
                 <p>${location}</p>
                 <p>${size}</p>
                 <p>${dangerous}</p>
                 <p>${information}</p>
-            </div>
         `;
     });
     container.innerHTML = htmlContent;
 
 }
+    */
